@@ -24,6 +24,7 @@ class LoadDocumentSpec extends GebReportingSpec {
   def "User can load an existing document"() {
 
     when: "User navigates to the document page"
+
     to DocumentPage, "PROP-1234"
 
     and: "The event sent into the workflow is retrieved."
@@ -38,3 +39,20 @@ class LoadDocumentSpec extends GebReportingSpec {
     moduleTitle == "Awesome Module"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

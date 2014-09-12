@@ -42,3 +42,27 @@ class DomainStubControl {
     new JsonSlurper().parseText(new URL("${baseUrl}domain/workflow/eventStream").text)
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
